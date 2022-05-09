@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.add-button {
+  background: #2f80ed;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-inline-start: 10px;
+}
+
+hr {
+  margin-block-start: 0px; 
+}
+
+.delete-all-button {
+  background: #eb5757;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.todos-wrapper {
+  text-align: left;
+  width: 100%;
+}
+
+.delete-form {
+  text-align: right;
+}
+
+@media (min-width: 800px){
+  .App {
+    width: 800px;
+    margin: 0 auto;
+  }
+}

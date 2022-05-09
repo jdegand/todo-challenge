@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+  max-width: 100%;
+  /*display: block;*/
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-size: 20px;
+}
+
+button {
+  background: inherit;
+  border: none;
+}
+
+button:focus {
+  border-bottom: 2px solid #228bec;
+}
+
+.border {
+  border-bottom: 2px solid #228bec;
+}
+
+input[type="text"] {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 2px solid #dfdfdf;
+  width: 89%;
+  margin-block: 25px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-block: 25px;
+}
+
+form {
+  width: 100%;
+}
+
+@media( max-width: 800px){
+  form {
+    text-align: left;
+  }
+  input[type="text"]{
+    width: 60%;
+  }
+}
