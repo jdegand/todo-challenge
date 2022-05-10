@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/todo-challenge/static/css/main.939ba781.css",
+    "main.js": "/todo-challenge/static/js/main.5d3f0654.js",
+    "static/js/787.2ce770c4.chunk.js": "/todo-challenge/static/js/787.2ce770c4.chunk.js",
+    "index.html": "/todo-challenge/index.html",
+    "static/media/delete-outline-white.svg": "/todo-challenge/static/media/delete-outline-white.2f68b35192d4a116633485bb57d7cc0b.svg",
+    "static/media/delete-outline.svg": "/todo-challenge/static/media/delete-outline.343237c1d0f4b4893b1f54b707db60e1.svg",
+    "main.939ba781.css.map": "/todo-challenge/static/css/main.939ba781.css.map",
+    "main.5d3f0654.js.map": "/todo-challenge/static/js/main.5d3f0654.js.map",
+    "787.2ce770c4.chunk.js.map": "/todo-challenge/static/js/787.2ce770c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.939ba781.css",
+    "static/js/main.5d3f0654.js"
+  ]
+}
