@@ -45,8 +45,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - useId cannot be used inside a callback.  
 - debatable if switch statement used here needs a default case
-- using innerText to get the value of the filter is not preferable to using a name property on each button
-- [Css reset](https://piccalil.li/blog/a-modern-css-reset/) making images have 'display:block' seems antiquated and causes more issues now since flex and grid are so prevalent.  
+- using innerText to get the value of the filter is not preferable to using a name property on each button  
 - Checkbox functionality & filtering causes many headaches.  Simple solution is to limit checking only when on 'all' filter. 
 - Don't want to remove checkboxes or disable them. 
 - working around blocked local storage is not easy
@@ -61,6 +60,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Useful Resources
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Css Reset](https://piccalil.li/blog/a-modern-css-reset/) - use this css reset as starting point almost every project
 - [Stack Overflow](https://stackoverflow.com/questions/59269676/change-the-value-of-object-in-an-array-on-click-event) - change value of object in array onClick
 - [Stack Overflow](https://stackoverflow.com/questions/66836514/how-to-change-values-in-array-of-objects-with-an-onclick) - change value of object in array onClick
 - [Stack Overflow](https://stackoverflow.com/questions/35206125/how-can-i-find-and-update-values-in-an-array-of-objects/61304412#61304412) - update objects inside arrays
