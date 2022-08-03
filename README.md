@@ -54,7 +54,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - Testing when something is conditionally rendered is something I need to look into.
 - Testing is made easier by setting initial todos to be two todos (one completed and one active) versus having both active like devchallenges screenshot
 - It probably would have made writing tests easier if app was broken up into smaller components.  
-- Could convert checkboxes into accessible style buttons like I done before
+- Could convert checkboxes into accessible style buttons like I have done before
 - Local Storage implementation is commented out although it works.  
 
 ## Useful Resources
