@@ -26,11 +26,17 @@
 
 ## Overview
 
-![](todo-challenge-desktop-initial-load.png) 
+![Initial](screenshots/todo-challenge-desktop-initial-load.png) 
 
-![](todo-challenge-desktop-added-todos.png) 
+***
 
-![](todo-challenge-desktop-delete.png) 
+![Added Todos](screenshots/todo-challenge-desktop-added-todos.png) 
+
+***
+
+![Deleted Todos](screenshots/todo-challenge-desktop-delete.png) 
+
+***
 
 ### Built With
 
@@ -43,19 +49,17 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Thoughts 
 
-- useId cannot be used inside a callback.  
-- debatable if switch statement used here needs a default case
-- using innerText to get the value of the filter is not preferable to using a name property on each button  
-- Checkbox functionality & filtering causes many headaches.  Simple solution is to limit checking only when on 'all' filter. 
+- `useId` cannot be used inside a callback.  
+- Using `innerText` to get the value of the filter is not preferable to using a name property on each button  
+- Checkbox functionality & filtering causes many headaches. Simple solution is to limit checking only when on 'all' filter. 
 - Don't want to remove checkboxes or disable them. 
-- working around blocked local storage is not easy
+- Working around blocked local storage is not easy.
 - focusing the all filter prevents focusing of the input field. 
-- I am working on improving my testing skills.  I had a few issues with testing the submit event.  It can't be directly mocked ([Stack Overflow](https://stackoverflow.com/questions/66110028/how-to-test-button-that-call-submit-form-using-jest-and-react-testing-library)) so you have to test the result of the submit event (is it in the document etc).
+- I am working on improving my testing skills.  I had a few issues with testing the submit event.  It can't be directly mocked ([Stack Overflow](https://stackoverflow.com/questions/66110028/how-to-test-button-that-call-submit-form-using-jest-and-react-testing-library)) so you have to test the result of the submit event (is it in the document, etc).
 - Testing when something is conditionally rendered is something I need to look into.
-- Testing is made easier by setting initial todos to be two todos (one completed and one active) versus having both active like devchallenges screenshot
-- It probably would have made writing tests easier if app was broken up into smaller components.  
-- Could convert checkboxes into accessible style buttons like I have done before
-- Local Storage implementation is commented out although it works.  
+- Testing is made easier by setting initial todos to be two todos (one completed and one active) versus having both active like DevChallenges screenshot.
+- Writing tests would be easier if the app was segmented into smaller components.  
+- Could convert checkboxes into accessible style buttons like I have done before.
 
 ## Useful Resources
 
