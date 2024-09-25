@@ -101,7 +101,7 @@ function App() {
         })}
         {filter === 'Completed' && todos.filter(todo => todo.completed).length > 0 ? <form className="delete-form">
           <button data-testid="delete" className="delete-all-button" type="button" onClick={handleDeleteAll}>
-            <img src={whiteTrashcan} alt="" />
+            <img src={whiteTrashcan} alt="" />&nbsp;
             delete all</button></form> : null}
       </div>
     </main>
