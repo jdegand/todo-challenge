@@ -19,7 +19,7 @@
 }
 
 hr {
-  margin-block-start: 0px; 
+  margin-block-start: 0px;
 }
 
 .delete-all-button {
@@ -42,7 +42,7 @@ hr {
   text-align: right;
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
   .App {
     width: 800px;
     margin: 0 auto;

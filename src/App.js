@@ -94,7 +94,7 @@ function App() {
           return (
             <div key={todo.id} onClick={() => handleChecked(todo.id)}>
               <input type="checkbox" checked={todo.completed} onChange={() => handleChecked(todo.id)} />
-              <span className={todo.completed ? 'line-through' : null}>{todo.todo}</span>{/* id:{todo.id}-todo:{todo.todo}*/}
+              <span className={todo.completed ? 'line-through' : null}>{todo.todo}</span>
               {filter === 'Completed' ? <span data-testid="todo-delete" onClick={() => handleDelete(todo.id)}><img src={trashcan} alt="delete" /></span> : null}
             </div>
           )
