@@ -30,6 +30,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-size: 20px;
 }
 
 a:not([class]) {
@@ -39,7 +40,6 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
-  /*display: block;*/
 }
 
 input,
@@ -51,9 +51,9 @@ select {
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -66,10 +66,6 @@ select {
 
 *:focus {
   outline: none;
-}
-
-body {
-  font-size: 20px;
 }
 
 button {
@@ -102,11 +98,12 @@ form {
   width: 100%;
 }
 
-@media( max-width: 800px){
+@media(max-width: 800px) {
   form {
     text-align: left;
   }
-  input[type="text"]{
+
+  input[type="text"] {
     width: 60%;
   }
 }
